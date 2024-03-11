@@ -36,6 +36,7 @@ public class OrderItem implements Serializable{
 	public void setQuantity(Order order) {
 		id.setOrder(order);
 	}
+
 	public Product getProduct() {
 		return id.getProduct();
 	}
